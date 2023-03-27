@@ -1,0 +1,19 @@
+[package]
+name = "find-roots"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "root_search"
+path = "src/lib.rs"
+
+[[bin]]
+name = "run"
+path = "src/bin.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+faer = "0.5.0"
+num-dual = "0.5.2"
+plotters = "0.3.4"
